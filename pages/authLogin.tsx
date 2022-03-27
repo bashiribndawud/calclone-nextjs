@@ -1,6 +1,6 @@
 import React, {Fragment, useRef, useState, useEffect} from 'react'
 import {useSession} from 'next-auth/client'
-import Link from 'next/Link'
+import Link from 'next/link'
 import { useRouter } from "next/router";
 import {signIn, getSession} from 'next-auth/client'
 
