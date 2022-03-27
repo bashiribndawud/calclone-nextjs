@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import { useRouter } from "next/router";
-import Router from "next/Router";
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 import { useSession, getSession } from "next-auth/client";
